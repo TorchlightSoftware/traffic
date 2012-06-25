@@ -20,7 +20,7 @@ This is still pretty rough around the edges, but it shows that client side code 
 
 ```coffee-script
 should = require 'should'
-van = new (require '../lib/main')
+van = new (require 'traffic')
 
 http.createServer((req, res) -> res.end '<p id="message">hello</p>').listen 4042, ->
   van.start 8084, ->
