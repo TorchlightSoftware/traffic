@@ -30,7 +30,6 @@ http.createServer((req, res) -> res.end '<p id="message">hello</p>').listen 4042
         next null, $('#message').text() # executed client side
       ), (err, data) ->
         data.should.equal 'hello'
-        done()
 ```
 
 ## LICENSE
