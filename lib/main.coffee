@@ -18,6 +18,7 @@ class Traffic
 
     @vein.add 'transmit', (res, event, error, data) =>
       @handlers[event] error, data
+      res.send status: 'success'
 
     next()
 
@@ -62,7 +63,7 @@ class Traffic
   drive: (fn, next) ->
 
     # if it's a string just execute it
-    return @browser.execute fn if @browser && typeof(fn) == 'string'
+    return @browser.execute fn if @browser and typeof fn is 'string'
 
     # curry for support with async libraries
     return @drive.bind @, fn unless next?
