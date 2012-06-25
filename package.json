@@ -1,0 +1,29 @@
+{
+   "name":"traffic",
+   "description":"Javascript capable web automation tool.",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/traffic",
+   "repository":"git://github.com/wearefractal/traffic.git",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main":"./index.js",
+
+   "dependencies":{
+      "coffee-script":"*",
+      "pane":"0.0.9",
+      "vein":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*",
+      "node-log":"*"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/APPNAME/raw/master/LICENSE"
+      }
+   ]
+}
