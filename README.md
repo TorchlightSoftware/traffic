@@ -36,7 +36,7 @@ http.createServer((req, res) -> res.end '<p id="message">hello</p>').listen 4042
 
 (MIT License)
 
-Copyright (c) 2012 Fractal <contact@wearefractal.com>
+Copyright (c) 2012 Torchlight Software <info@torchlightsoftware.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
