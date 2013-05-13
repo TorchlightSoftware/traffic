@@ -1,29 +1,24 @@
 {
-   "name":"traffic",
-   "description":"Javascript capable web automation tool.",
-   "version":"0.0.1",
-   "homepage":"http://github.com/TorchlightSoftware/traffic",
-   "repository":"git://github.com/TorchlightSoftware/traffic.git",
-   "author":"Torchlight Software <contact@torchlightsoftware.com> (http://torchlightsoftware.com/)",
-   "main":"./index.js",
-
-   "dependencies":{
-      "coffee-script":"*",
-      "pane":"0.0.9",
-      "vein":"*"
-   },
-   "devDependencies":{
-      "mocha":"*",
-      "should":"*",
-      "node-log":"*"
-   },
-   "engines":{
-      "node":">= 0.4.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/TorchlightSoftware/traffic/raw/master/LICENSE"
-      }
-   ]
+  "name": "traffic",
+  "description": "Web automation DSL using PhantomJS backend.",
+  "version": "0.0.2",
+  "author": "Brandon Mason <brandon@torchlightsoftware.com>",
+  "main": "lib/traffic.coffee",
+  "dependencies": {
+    "node-phantom": "*",
+    "coffee-script": "*",
+    "async": "*"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "subdomain": "guru",
+  "private": true,
+  "scripts": {
+    "test": "mocha"
+  }
 }
