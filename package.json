@@ -1,6 +1,6 @@
 {
   "name": "traffic",
-  "description": "Web automation DSL using PhantomJS backend.",
+  "description": "Web automation DSL using selenium backend.",
   "version": "0.0.3",
   "author": "Brandon Mason <brandon@torchlightsoftware.com>",
   "main": "lib/traffic.coffee",
@@ -18,7 +18,6 @@
     "node": ">= 0.4.0"
   },
   "subdomain": "guru",
-  "private": true,
   "scripts": {
     "test": "mocha"
   }
