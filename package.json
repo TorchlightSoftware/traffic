@@ -1,12 +1,13 @@
 {
   "name": "traffic",
   "description": "Web automation DSL using PhantomJS backend.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Brandon Mason <brandon@torchlightsoftware.com>",
   "main": "lib/traffic.coffee",
   "dependencies": {
-    "node-phantom": "*",
     "coffee-script": "*",
+    "colors": "*",
+    "wd": "*",
     "async": "*"
   },
   "devDependencies": {
