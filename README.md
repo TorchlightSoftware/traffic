@@ -44,3 +44,36 @@ npm install traffic
       });
     });
 ```
+
+# API
+
+## Load a web page
+
+* visit
+
+## Initiate a process
+
+* drive (tasks, done)
+* loop (condition, tasks, done)
+
+## Perform commands
+
+* setTimer (tag, next)
+* diffTimer (tag, next)
+* waitFor (selector, timeout, next)
+* waitForText (text, timeout, next)
+* eval (script, done)
+* exists (selector, done)
+* text (selector, done) # getText
+* html (selector, done) # getHtml
+* fill (selector, text, done)
+* click (selector, done)
+* print (target, done)
+* printPage (done)
+* takeScreenshot (done)
+
+## Helpers
+
+* forever # condition for loop
+* never # condition for loop
+* poll (timeout, check, done)

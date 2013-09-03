@@ -131,7 +131,8 @@ module.exports = traffic =
       finished = (err) ->
         if err
           seleniumError = err?.cause?.value?.message
-          console.log "Error: #{seleniumError or err}".red
+          errorMessage = err?.message
+          console.log "Error: #{seleniumError or errorMessage or err}".red
           helpers.printPage ->
             browser?.quit()
 
