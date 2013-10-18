@@ -1,9 +1,12 @@
 {
   "name": "traffic",
   "description": "Web automation DSL using selenium backend.",
-  "version": "0.0.3",
-  "author": "Brandon Mason <brandon@torchlightsoftware.com>",
+  "version": "0.0.4",
+  "homepage":"http://github.com/TorchlightSoftware/traffic",
+  "repository":"git://github.com/TorchlightSoftware/traffic.git",
+  "author":"Torchlight Software <info@torchlightsoftware.com> (http://torchlightsoftware.com)",
   "main": "lib/traffic.coffee",
+
   "dependencies": {
     "coffee-script": "*",
     "colors": "*",
@@ -15,8 +18,14 @@
     "mocha": "*"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.8.4"
   },
+  "licenses":[
+    {
+      "type":"MIT",
+      "url":"http://github.com/torchlightsoftware/traffic/raw/master/LICENSE"
+    }
+  ],
   "subdomain": "guru",
   "scripts": {
     "test": "mocha"

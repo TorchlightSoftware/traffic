@@ -58,19 +58,19 @@ npm install traffic
 
 ## Perform commands
 
-* setTimer (tag, next)
-* diffTimer (tag, next)
-* waitFor (selector, timeout, next)
-* waitForText (text, timeout, next)
-* eval (script, done)
-* exists (selector, done)
-* text (selector, done) # getText
-* html (selector, done) # getHtml
-* fill (selector, text, done)
-* click (selector, done)
-* print (target, done)
-* printPage (done)
-* takeScreenshot (done)
+* setTimer (tag, [next])
+* diffTimer (tag, [next])
+* waitFor (selector, timeout, [next])
+* waitForText (text, timeout, [next])
+* eval (script, [done])
+* exists (selector, [done])
+* text (selector, [done]) # getText
+* html (selector, [done]) # getHtml
+* fill (selector, text, [done])
+* click (selector, [done])
+* print (target, [done])
+* printPage ([done])
+* takeScreenshot ([done])
 
 ## Helpers
 
